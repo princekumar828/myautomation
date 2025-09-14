@@ -18,8 +18,8 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config --local user.name "github-actions"
-          git config --local user.email "github-actions@github.com"
+          git config --local user.name "princekumar828"
+          git config --local user.email "kumarprince282002@gmail.com"
           git add heatmap.log
           git commit -m "Update heatmap log"
           git push
